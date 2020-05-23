@@ -24,7 +24,7 @@ git clone https://github.com/richardschoen/PHPWebProjectIBMi.git
 ```
 Open PHPWebProjectIBMi.sln project solution in Visual Studio.
 
-Update settings.php with your IBM i system host/ip address, user id and password. 
+***Update settings.php with your IBM i system host/ip address, user id and password*** 
 
 Run the project and it should execute as long as you have installed the IBM i Acceds Windows ODBC Driver.
 
@@ -80,6 +80,8 @@ git clone https://github.com/richardschoen/PHPWebProjectIBMi.git
 ```
 
 Hook up the /PHPWebProjectIBMi/PHPWebProjectIBMi directory to your Community PHP server or copy all the PHP files to a running instance of Apache or NGINX web server that is configured to servie PHP files already.
+
+***Update settings.php with your IBM i system host/ip address, user id and password*** 
 
 Run the following URLs to check ODBC and PDO connectivity
 

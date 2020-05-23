@@ -26,7 +26,24 @@ Open PHPWebProjectIBMi.sln project solution in Visual Studio.
 
 Update settings.php with your IBM i system host/ip address, user id and password. 
 
-Run the project and it should execute as long as you have installed the IBM i Accedss Windows ODBC Driver.
+Run the project and it should execute as long as you have installed the IBM i Acceds Windows ODBC Driver.
+
+Run the following URLs to check ODBC and PDO connectivity
+
+http://localhost/odbctest1.php
+
+http://localhost/pdotest1.php
+
+Run the following URL to test the web app:
+
+http://localhost/index.php
+
+-or-
+
+http://localhost/qcustcdtlist.php
+
+***Note:** Your local host port may be ***auto-assigned by Visual Studio*** when you run your project so adjust sample URLs above accordingly.
+
 
 # Setting up for development and use natively on IBM i
 Make sure IBM i ACS Open Source Package Management loaded

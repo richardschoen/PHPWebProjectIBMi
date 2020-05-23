@@ -95,3 +95,4 @@ http://ibmiserverorip/index.php
 
 http://ibmiserverorip/qcustcdtlist.php
 
+***Note:** Your url and port may be different  ***depending on your Apache or NGINX port configurations*** when you run your project so adjust sample URLs above accordingly.

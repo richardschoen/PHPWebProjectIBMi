@@ -1,10 +1,13 @@
 # PHPWebProjectIBMi
-Sample PHP Web App for use on IBM i with Community PHP or on Windows or Linux with PHP 7.x. Uses IBM i Access ODBC Driver available from IBM at the IBM i Access Client Solutions site http://www-01.ibm.com/support/docview.wss?uid=isg3T1026805
+Sample PHP Web App for use on IBM i with Community PHP or on Windows or Linux with PHP 7.x. Uses IBM i Access ODBC Driver available from IBM at the IBM i Access Client Solutions site:
+
+http://www-01.ibm.com/support/docview.wss?uid=isg3T1026805
 
 # Setting up for development and use from Windows with Visual Studio or your favorite PHP IDE
 Install ***Visual Studio 2019*** (Community Edition available FREE)
 
 If using Visual Studio, you will need PHP Tools for Visual Studio (Not FREE, but demo available)
+
 https://marketplace.visualstudio.com/items?itemName=DEVSENSE.PHPToolsforVisualStudio
 
 Make sure your PHP environment have the following PHP extensions enabled in your PHP.INI along with other PHP extensions you're using:
@@ -34,7 +37,9 @@ yum install unixODBC
 
 yum install unixODBC'devel
 ```
-Make sure IBM i Access ODBC Driver for PASE is loaded Download from IBM i Access Client Solutions site http://www-01.ibm.com/support/docview.wss?uid=isg3T1026805
+Make sure IBM i Access ODBC Driver for PASE is loaded Download from IBM i Access Client Solutions site:
+
+http://www-01.ibm.com/support/docview.wss?uid=isg3T1026805
 
 Upload IBM i Access RPM file to root dir in IFS (where xx is version number of RPM) ibm-iaccess-1.1.0.xx-0.ibmi7.2.ppc64.rpm
 
@@ -60,10 +65,13 @@ git clone https://github.com/richardschoen/PHPWebProjectIBMi.git
 Hook up the /PHPWebProjectIBMi/PHPWebProjectIBMi directory to your Community PHP server or copy all the PHP files to a running instance of Apache or NGINX web server that is configured to servie PHP files already.
 
 Run the following URLs to check ODBC and PDO connectivity
+
 http://ibmiserverorip/odbctest1.php
+
 http://ibmiserverorip/pdotest1.php
 
 Run the following URL to test the web app:
+
 http://ibmiserverorip/index.php
 
 -or-

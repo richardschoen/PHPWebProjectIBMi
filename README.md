@@ -52,7 +52,7 @@ Install Community PHP from Zend site and Unix ODBC Yum packages via ACS or via y
 ```
 yum install unixODBC
 
-yum install unixODBC'devel
+yum install unixODBC-devel
 ```
 Make sure IBM i Access ODBC Driver for PASE is loaded Download from IBM i Access Client Solutions site:
 

@@ -1,9 +1,18 @@
 # PHPWebProjectIBMi
 Sample PHP Web App for use on IBM i with Community PHP or on Windows or Linux with PHP 7.x. Uses IBM i Access ODBC Driver available from IBM at the IBM i Access Client Solutions site http://www-01.ibm.com/support/docview.wss?uid=isg3T1026805
 
-# Setting up for development and use from Windows with Visual Studio
+# Setting up for development and use from Windows with Visual Studio or your favorite PHP IDE
 Install Visual Studio 2019 (Community Edition available FREE)
 
+If using Visual Studio, you will need PHP Tools for Visual Studio (Not FREE, but demo available)
+https://marketplace.visualstudio.com/items?itemName=DEVSENSE.PHPToolsforVisualStudio
+
+Make sure your PHP environment have the following PHP extensions enabled in your PHP.INI along with other PHP extensions you're using:
+```
+[ExtensionList]
+extension=php_odbc.dll
+extension=php_pdo_odbc.dll
+```
 Clone project to local directory from Windows command line (or your favorite method)
 ```
 cd /

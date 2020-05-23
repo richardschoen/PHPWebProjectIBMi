@@ -1,5 +1,5 @@
 # PHPWebProjectIBMi
-Sample PHP Web App for use on IBM i, Windows or Linux. Uses IBM i Access ODBC Driver.
+Sample PHP Web App for use on IBM i with Community PHP or on Windows or Linux with PHP 7.x. Uses IBM i Access ODBC Driver available from IBM at the IBM i Access Client Solutions site http://www-01.ibm.com/support/docview.wss?uid=isg3T1026805
 
 # Setting up for development and use from Windows with Visual Studio
 Install Visual Studio 2019
